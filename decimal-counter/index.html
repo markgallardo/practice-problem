@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+      function decimalPlaceCounter(string){
+        var place = 0;
+        for (var i = 0; i < string.length; i++){
+          if (string[i] === "."){
+              place = i
+          }
+        }
+       return place;
+      }
+
+      console.log (decimalPlaceCounter("127.245"))
+      console.log(decimalPlaceCounter("145"))
+      console.log(decimalPlaceCounter("23.00"))
+    </script>
+</body>
+</html>
