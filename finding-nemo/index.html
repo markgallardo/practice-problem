@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function findingNemo(sentence){
+    var findWord = sentence.split(" ")
+    for(var x = 0;x < findWord.length; x++){
+      if (findWord[x] === "Nemo"){
+      return x + 1
+     }
+   }
+  }
+  console.log(findingNemo("I am Nemo"))
+  console.log(findingNemo("Where is Nemo my son?"))
+  console.log(findingNemo("Nemo is my Name"))
+  console.log(findingNemo("where is dory"))
+  </script>
+</body>
+</html>
