@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function timeForMilkAndCookies(date) {
+        if (date.getMonth() === 11 && date.getDate() === 24) {
+          return true
+        } else {
+          return false
+        }
+      }
+
+console.log(timeForMilkAndCookies(new Date(2013, 11, 24)))
+  console.log(timeForMilkAndCookies(new Date(3000, 11, 24)))
+  console.log(timeForMilkAndCookies(new Date(2013, 0, 24)))
+// make a condition that month is equal to dec and date is equal to 24
+
+
+//example
+//make a fucntion that return true if the date is equal to dec 24
+//and false if is not  dec 24
+
+//new date(2013 ,11 ,24) =true
+//new date(2013 , 0, 23)= false
+//new date (3000, 11 , 24)= true
+  </script>
+</body>
+</html>
