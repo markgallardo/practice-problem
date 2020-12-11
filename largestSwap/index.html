@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function largestSwap(num) {
+        let newNum = num.toString()
+        if (newNum.charAt(1) <= newNum.charAt(0)) {
+          return true
+        } else {
+          return false
+        }
+      }
+
+      console.log(largestSwap(27))
+      console.log(largestSwap(43))
+       console.log(largestSwap(14))
+        console.log(largestSwap(53))
+         console.log(largestSwap(99))
+
+// make a variable of new num
+//convert to string
+// split the num
+// reverse
+// join
+//make a conditional that compare the num and the new num
+
+//write a funct that take two digit number and determines if its the largest of the two possible digit swaps
+  </script>
+</body>
+</html>
